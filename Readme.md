@@ -8,7 +8,7 @@ Install
 Example
 ---
 
-Checkout example at `example/index.html` or [demo](http://component-kelonye.rhcloud.com/#/526015eb727d165643000005) or `make example`.
+Checkout example at `example/index.html` or [demo](http://component-kelonye.rhcloud.com/#/53484b68e684820000000004) or `make example`.
 
 License
 ---
