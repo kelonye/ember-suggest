@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href='../public/public.css' rel='stylesheet' media='screen'>
+  </head>
+  <body>
+    <style>
+      
+    </style>
+    <script data-template-name='index' type='text/x-handlebars'>
+      {{view App.SuggestView contentBinding='suggestions' valueBinding='input' tagProperty='name' priorityProperty='name'}}
+    </script>
+    <script src='../public/public.js'></script>
+    <script type='text/javascript'>
+
+      var suggest = require('ember-suggest');
+
+      App = Em.Application.create();
+
+      App.IndexController = Em.Route.extend({
+        suggestions: [
+          'Apple',
+          'Mango',
+          'Orange',
+          'Banana'
+        ].map(function(name, id){
+          return Em.Object.create({
+            name: name,
+            id: ++id
+          });
+        })
+      });
+
+      Em.TEMPLATES['suggestion-item'] = Em.Handlebars.compile('{{name}}');
+
+      App.SuggestView = Em.View.extend(suggest);
+
+    </script>
+  </body>
+</html>
