@@ -1,4 +1,4 @@
-.component-suggestion .pillbox {
+.component-ember-suggest .pillbox {
   width: 100%;
   border: 1px solid #eee;
   border-top-color: #ddd;
@@ -7,25 +7,25 @@
   box-sizing: border-box;
 }
 
-.component-suggestion .pillbox input {
+.component-ember-suggest .pillbox input {
   padding: 5px;
   float: left;
 }
 
-.component-suggestion .pillbox span:hover {
+.component-ember-suggest .pillbox span:hover {
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, .8);
   background: #fafafa;
 }
 
-.component-suggestion .pillbox span a:hover {
+.component-ember-suggest .pillbox span a:hover {
   background: #eee;
 }
 
-.component-suggestion .pillbox span a:active {
+.component-ember-suggest .pillbox span a:active {
   background: #ddd;
 }
 
-.component-suggestion .pillbox span a {
+.component-ember-suggest .pillbox span a {
   display: inline-block;
   font-size: 6px;
   color: #888;
@@ -41,7 +41,7 @@
   top: -1px;
 }
 
-.component-suggestion .pillbox span {
+.component-ember-suggest .pillbox span {
   display: block;
   float: left;
   margin: 2px;
@@ -51,7 +51,11 @@
   padding: 5px 8px;
 }
 
-.component-suggestion ul {
+.component-ember-suggest ul {
   padding: 0;
   list-style: none;
+}
+
+.component-ember-suggest ul li {
+  cursor: pointer;
 }
