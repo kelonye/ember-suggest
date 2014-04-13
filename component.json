@@ -3,8 +3,7 @@
   "version": "0.0.2",
   "description": "Google+ inspired input",
   "dependencies": {
-    "kelonye/ember": "1.2.0",
-    "component/pillbox": "1.3.1"
+    "kelonye/ember": "1.2.0"
   },
   "main": "lib/index.js",
   "scripts": [
