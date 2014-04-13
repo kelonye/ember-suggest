@@ -71,5 +71,6 @@
 }
 
 .component-ember-suggest ul li {
+  display: block;
   cursor: pointer;
 }
