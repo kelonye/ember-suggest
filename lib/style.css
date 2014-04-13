@@ -1,4 +1,4 @@
-.component-ember-suggest {
+.component-ember-suggest .pillbox{
   display: inline-block;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -7,13 +7,13 @@
   user-select: none;
 }
 
-.component-ember-suggest input,
-.component-ember-suggest input:focus {
+.component-ember-suggest .pillbox input,
+.component-ember-suggest .pillbox input:focus {
   border: none;
   outline: none;
 }
 
-.component-ember-suggest {
+.component-ember-suggest .pillbox {
   width: 100%;
   border: 1px solid #eee;
   border-top-color: #ddd;
@@ -22,24 +22,24 @@
   box-sizing: border-box;
 }
 
-.component-ember-suggest input {
+.component-ember-suggest .pillbox input {
   padding: 5px;
 }
 
-.component-ember-suggest span:hover {
+.component-ember-suggest .pillbox span:hover {
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, .8);
   background: #fafafa;
 }
 
-.component-ember-suggest span a:hover {
+.component-ember-suggest .pillbox span a:hover {
   background: #eee;
 }
 
-.component-ember-suggest span a:active {
+.component-ember-suggest .pillbox span a:active {
   background: #ddd;
 }
 
-.component-ember-suggest span a {
+.component-ember-suggest .pillbox span a {
   display: inline-block;
   font-size: 6px;
   color: #888;
@@ -55,11 +55,10 @@
   top: -1px;
 }
 
-.component-ember-suggest span {
+.component-ember-suggest .pillbox span {
   display: block;
   float: left;
   margin: 2px;
-  font: 12px Helvetica, Arial;
   border: 1px solid #eee;
   border-radius: 2px;
   padding: 5px 8px;
@@ -71,6 +70,5 @@
 }
 
 .component-ember-suggest ul li {
-  display: block;
   cursor: pointer;
 }
